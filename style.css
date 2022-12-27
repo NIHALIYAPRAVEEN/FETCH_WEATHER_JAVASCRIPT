@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("a.avif");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.row{
+    width: 60%;
+    /* height: 100px; */
+    /* border: 2px solid rgb(71, 151, 55); */
+    margin: -10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#search{
+    padding: 10px;
+    border-radius: 20px;
+    margin:25px;
+    outline: none;
+    font-size: 15px;
+    border: 2px;
+    background-color: rgb(232, 230, 243);
+    color: rgb(93, 69, 117);
+    text-align: center;
+}
+
+h2,h4{
+  font-size: 40px;
+  color :rgb(75, 55, 66);
+  font-weight: bold;
+  margin: -15px;
+}
